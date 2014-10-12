@@ -21,6 +21,11 @@
 		AC7B2C7819EAE96300AC12A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7B2C5A19EAE96300AC12A5 /* UIKit.framework */; };
 		AC7B2C8019EAE96300AC12A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC7B2C7E19EAE96300AC12A5 /* InfoPlist.strings */; };
 		AC7B2C8219EAE96300AC12A5 /* MMTableCellAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7B2C8119EAE96300AC12A5 /* MMTableCellAnimationTests.m */; };
+		AC7B2C8F19EAECC600AC12A5 /* five.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC7B2C8B19EAECC600AC12A5 /* five.jpg */; };
+		AC7B2C9019EAECC600AC12A5 /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC7B2C8C19EAECC600AC12A5 /* one.jpg */; };
+		AC7B2C9119EAECC600AC12A5 /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7B2C8D19EAECC600AC12A5 /* three.png */; };
+		AC7B2C9219EAECC600AC12A5 /* two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC7B2C8E19EAECC600AC12A5 /* two.jpg */; };
+		AC7B2C9619EAF41700AC12A5 /* MMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7B2C9519EAF41700AC12A5 /* MMCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		AC7B2C7D19EAE96300AC12A5 /* MMTableCellAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMTableCellAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		AC7B2C7F19EAE96300AC12A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC7B2C8119EAE96300AC12A5 /* MMTableCellAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTableCellAnimationTests.m; sourceTree = "<group>"; };
+		AC7B2C8B19EAECC600AC12A5 /* five.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = five.jpg; sourceTree = "<group>"; };
+		AC7B2C8C19EAECC600AC12A5 /* one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one.jpg; sourceTree = "<group>"; };
+		AC7B2C8D19EAECC600AC12A5 /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		AC7B2C8E19EAECC600AC12A5 /* two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = two.jpg; sourceTree = "<group>"; };
+		AC7B2C9419EAF41700AC12A5 /* MMCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCell.h; sourceTree = "<group>"; };
+		AC7B2C9519EAF41700AC12A5 /* MMCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +123,7 @@
 		AC7B2C5C19EAE96300AC12A5 /* MMTableCellAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				AC7B2C9319EAEDCE00AC12A5 /* Images */,
 				AC7B2C6519EAE96300AC12A5 /* MMAppDelegate.h */,
 				AC7B2C6619EAE96300AC12A5 /* MMAppDelegate.m */,
 				AC7B2C6819EAE96300AC12A5 /* Main.storyboard */,
@@ -119,6 +131,8 @@
 				AC7B2C6C19EAE96300AC12A5 /* MMViewController.m */,
 				AC7B2C6E19EAE96300AC12A5 /* Images.xcassets */,
 				AC7B2C5D19EAE96300AC12A5 /* Supporting Files */,
+				AC7B2C9419EAF41700AC12A5 /* MMCell.h */,
+				AC7B2C9519EAF41700AC12A5 /* MMCell.m */,
 			);
 			path = MMTableCellAnimation;
 			sourceTree = "<group>";
@@ -150,6 +164,17 @@
 				AC7B2C7E19EAE96300AC12A5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC7B2C9319EAEDCE00AC12A5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B2C8B19EAECC600AC12A5 /* five.jpg */,
+				AC7B2C8C19EAECC600AC12A5 /* one.jpg */,
+				AC7B2C8D19EAECC600AC12A5 /* three.png */,
+				AC7B2C8E19EAECC600AC12A5 /* two.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7B2C9219EAECC600AC12A5 /* two.jpg in Resources */,
 				AC7B2C6F19EAE96300AC12A5 /* Images.xcassets in Resources */,
+				AC7B2C9019EAECC600AC12A5 /* one.jpg in Resources */,
+				AC7B2C9119EAECC600AC12A5 /* three.png in Resources */,
+				AC7B2C8F19EAECC600AC12A5 /* five.jpg in Resources */,
 				AC7B2C6119EAE96300AC12A5 /* InfoPlist.strings in Resources */,
 				AC7B2C6A19EAE96300AC12A5 /* Main.storyboard in Resources */,
 			);
@@ -251,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC7B2C6719EAE96300AC12A5 /* MMAppDelegate.m in Sources */,
+				AC7B2C9619EAF41700AC12A5 /* MMCell.m in Sources */,
 				AC7B2C6D19EAE96300AC12A5 /* MMViewController.m in Sources */,
 				AC7B2C6319EAE96300AC12A5 /* main.m in Sources */,
 			);
