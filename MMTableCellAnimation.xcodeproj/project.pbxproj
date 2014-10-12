@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC7B2C5719EAE96300AC12A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7B2C5619EAE96300AC12A5 /* Foundation.framework */; };
+		AC7B2C5919EAE96300AC12A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7B2C5819EAE96300AC12A5 /* CoreGraphics.framework */; };
+		AC7B2C5B19EAE96300AC12A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7B2C5A19EAE96300AC12A5 /* UIKit.framework */; };
+		AC7B2C6119EAE96300AC12A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC7B2C5F19EAE96300AC12A5 /* InfoPlist.strings */; };
+		AC7B2C6319EAE96300AC12A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7B2C6219EAE96300AC12A5 /* main.m */; };
+		AC7B2C6719EAE96300AC12A5 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7B2C6619EAE96300AC12A5 /* MMAppDelegate.m */; };
+		AC7B2C6A19EAE96300AC12A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7B2C6819EAE96300AC12A5 /* Main.storyboard */; };
+		AC7B2C6D19EAE96300AC12A5 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7B2C6C19EAE96300AC12A5 /* MMViewController.m */; };
+		AC7B2C6F19EAE96300AC12A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7B2C6E19EAE96300AC12A5 /* Images.xcassets */; };
+		AC7B2C7619EAE96300AC12A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7B2C7519EAE96300AC12A5 /* XCTest.framework */; };
+		AC7B2C7719EAE96300AC12A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7B2C5619EAE96300AC12A5 /* Foundation.framework */; };
+		AC7B2C7819EAE96300AC12A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7B2C5A19EAE96300AC12A5 /* UIKit.framework */; };
+		AC7B2C8019EAE96300AC12A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC7B2C7E19EAE96300AC12A5 /* InfoPlist.strings */; };
+		AC7B2C8219EAE96300AC12A5 /* MMTableCellAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7B2C8119EAE96300AC12A5 /* MMTableCellAnimationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC7B2C7919EAE96300AC12A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7B2C4B19EAE96300AC12A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC7B2C5219EAE96300AC12A5;
+			remoteInfo = MMTableCellAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC7B2C5319EAE96300AC12A5 /* MMTableCellAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMTableCellAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7B2C5619EAE96300AC12A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC7B2C5819EAE96300AC12A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC7B2C5A19EAE96300AC12A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC7B2C5E19EAE96300AC12A5 /* MMTableCellAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMTableCellAnimation-Info.plist"; sourceTree = "<group>"; };
+		AC7B2C6019EAE96300AC12A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC7B2C6219EAE96300AC12A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC7B2C6419EAE96300AC12A5 /* MMTableCellAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMTableCellAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		AC7B2C6519EAE96300AC12A5 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		AC7B2C6619EAE96300AC12A5 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		AC7B2C6919EAE96300AC12A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC7B2C6B19EAE96300AC12A5 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		AC7B2C6C19EAE96300AC12A5 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		AC7B2C6E19EAE96300AC12A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC7B2C7419EAE96300AC12A5 /* MMTableCellAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMTableCellAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7B2C7519EAE96300AC12A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC7B2C7D19EAE96300AC12A5 /* MMTableCellAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMTableCellAnimationTests-Info.plist"; sourceTree = "<group>"; };
+		AC7B2C7F19EAE96300AC12A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC7B2C8119EAE96300AC12A5 /* MMTableCellAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTableCellAnimationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC7B2C5019EAE96300AC12A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B2C5919EAE96300AC12A5 /* CoreGraphics.framework in Frameworks */,
+				AC7B2C5B19EAE96300AC12A5 /* UIKit.framework in Frameworks */,
+				AC7B2C5719EAE96300AC12A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7B2C7119EAE96300AC12A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B2C7619EAE96300AC12A5 /* XCTest.framework in Frameworks */,
+				AC7B2C7819EAE96300AC12A5 /* UIKit.framework in Frameworks */,
+				AC7B2C7719EAE96300AC12A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC7B2C4A19EAE96300AC12A5 = {
+			isa = PBXGroup;
+			children = (
+				AC7B2C5C19EAE96300AC12A5 /* MMTableCellAnimation */,
+				AC7B2C7B19EAE96300AC12A5 /* MMTableCellAnimationTests */,
+				AC7B2C5519EAE96300AC12A5 /* Frameworks */,
+				AC7B2C5419EAE96300AC12A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC7B2C5419EAE96300AC12A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B2C5319EAE96300AC12A5 /* MMTableCellAnimation.app */,
+				AC7B2C7419EAE96300AC12A5 /* MMTableCellAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC7B2C5519EAE96300AC12A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B2C5619EAE96300AC12A5 /* Foundation.framework */,
+				AC7B2C5819EAE96300AC12A5 /* CoreGraphics.framework */,
+				AC7B2C5A19EAE96300AC12A5 /* UIKit.framework */,
+				AC7B2C7519EAE96300AC12A5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC7B2C5C19EAE96300AC12A5 /* MMTableCellAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B2C6519EAE96300AC12A5 /* MMAppDelegate.h */,
+				AC7B2C6619EAE96300AC12A5 /* MMAppDelegate.m */,
+				AC7B2C6819EAE96300AC12A5 /* Main.storyboard */,
+				AC7B2C6B19EAE96300AC12A5 /* MMViewController.h */,
+				AC7B2C6C19EAE96300AC12A5 /* MMViewController.m */,
+				AC7B2C6E19EAE96300AC12A5 /* Images.xcassets */,
+				AC7B2C5D19EAE96300AC12A5 /* Supporting Files */,
+			);
+			path = MMTableCellAnimation;
+			sourceTree = "<group>";
+		};
+		AC7B2C5D19EAE96300AC12A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B2C5E19EAE96300AC12A5 /* MMTableCellAnimation-Info.plist */,
+				AC7B2C5F19EAE96300AC12A5 /* InfoPlist.strings */,
+				AC7B2C6219EAE96300AC12A5 /* main.m */,
+				AC7B2C6419EAE96300AC12A5 /* MMTableCellAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC7B2C7B19EAE96300AC12A5 /* MMTableCellAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B2C8119EAE96300AC12A5 /* MMTableCellAnimationTests.m */,
+				AC7B2C7C19EAE96300AC12A5 /* Supporting Files */,
+			);
+			path = MMTableCellAnimationTests;
+			sourceTree = "<group>";
+		};
+		AC7B2C7C19EAE96300AC12A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B2C7D19EAE96300AC12A5 /* MMTableCellAnimationTests-Info.plist */,
+				AC7B2C7E19EAE96300AC12A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC7B2C5219EAE96300AC12A5 /* MMTableCellAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7B2C8519EAE96300AC12A5 /* Build configuration list for PBXNativeTarget "MMTableCellAnimation" */;
+			buildPhases = (
+				AC7B2C4F19EAE96300AC12A5 /* Sources */,
+				AC7B2C5019EAE96300AC12A5 /* Frameworks */,
+				AC7B2C5119EAE96300AC12A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMTableCellAnimation;
+			productName = MMTableCellAnimation;
+			productReference = AC7B2C5319EAE96300AC12A5 /* MMTableCellAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC7B2C7319EAE96300AC12A5 /* MMTableCellAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7B2C8819EAE96300AC12A5 /* Build configuration list for PBXNativeTarget "MMTableCellAnimationTests" */;
+			buildPhases = (
+				AC7B2C7019EAE96300AC12A5 /* Sources */,
+				AC7B2C7119EAE96300AC12A5 /* Frameworks */,
+				AC7B2C7219EAE96300AC12A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC7B2C7A19EAE96300AC12A5 /* PBXTargetDependency */,
+			);
+			name = MMTableCellAnimationTests;
+			productName = MMTableCellAnimationTests;
+			productReference = AC7B2C7419EAE96300AC12A5 /* MMTableCellAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7B2C4B19EAE96300AC12A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.muku;
+				TargetAttributes = {
+					AC7B2C7319EAE96300AC12A5 = {
+						TestTargetID = AC7B2C5219EAE96300AC12A5;
+					};
+				};
+			};
+			buildConfigurationList = AC7B2C4E19EAE96300AC12A5 /* Build configuration list for PBXProject "MMTableCellAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC7B2C4A19EAE96300AC12A5;
+			productRefGroup = AC7B2C5419EAE96300AC12A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC7B2C5219EAE96300AC12A5 /* MMTableCellAnimation */,
+				AC7B2C7319EAE96300AC12A5 /* MMTableCellAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC7B2C5119EAE96300AC12A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B2C6F19EAE96300AC12A5 /* Images.xcassets in Resources */,
+				AC7B2C6119EAE96300AC12A5 /* InfoPlist.strings in Resources */,
+				AC7B2C6A19EAE96300AC12A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7B2C7219EAE96300AC12A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B2C8019EAE96300AC12A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC7B2C4F19EAE96300AC12A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B2C6719EAE96300AC12A5 /* MMAppDelegate.m in Sources */,
+				AC7B2C6D19EAE96300AC12A5 /* MMViewController.m in Sources */,
+				AC7B2C6319EAE96300AC12A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7B2C7019EAE96300AC12A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B2C8219EAE96300AC12A5 /* MMTableCellAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC7B2C7A19EAE96300AC12A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC7B2C5219EAE96300AC12A5 /* MMTableCellAnimation */;
+			targetProxy = AC7B2C7919EAE96300AC12A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC7B2C5F19EAE96300AC12A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7B2C6019EAE96300AC12A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC7B2C6819EAE96300AC12A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7B2C6919EAE96300AC12A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC7B2C7E19EAE96300AC12A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7B2C7F19EAE96300AC12A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC7B2C8319EAE96300AC12A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC7B2C8419EAE96300AC12A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC7B2C8619EAE96300AC12A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMTableCellAnimation/MMTableCellAnimation-Prefix.pch";
+				INFOPLIST_FILE = "MMTableCellAnimation/MMTableCellAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC7B2C8719EAE96300AC12A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMTableCellAnimation/MMTableCellAnimation-Prefix.pch";
+				INFOPLIST_FILE = "MMTableCellAnimation/MMTableCellAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC7B2C8919EAE96300AC12A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMTableCellAnimation.app/MMTableCellAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMTableCellAnimation/MMTableCellAnimation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MMTableCellAnimationTests/MMTableCellAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC7B2C8A19EAE96300AC12A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMTableCellAnimation.app/MMTableCellAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMTableCellAnimation/MMTableCellAnimation-Prefix.pch";
+				INFOPLIST_FILE = "MMTableCellAnimationTests/MMTableCellAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC7B2C4E19EAE96300AC12A5 /* Build configuration list for PBXProject "MMTableCellAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7B2C8319EAE96300AC12A5 /* Debug */,
+				AC7B2C8419EAE96300AC12A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7B2C8519EAE96300AC12A5 /* Build configuration list for PBXNativeTarget "MMTableCellAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7B2C8619EAE96300AC12A5 /* Debug */,
+				AC7B2C8719EAE96300AC12A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC7B2C8819EAE96300AC12A5 /* Build configuration list for PBXNativeTarget "MMTableCellAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7B2C8919EAE96300AC12A5 /* Debug */,
+				AC7B2C8A19EAE96300AC12A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7B2C4B19EAE96300AC12A5 /* Project object */;
+}
