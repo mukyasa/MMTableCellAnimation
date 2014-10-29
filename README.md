@@ -3,7 +3,7 @@ MMTableCellAnimation
 
 This project is about table cell translation animation 
 
-![Demo MMPaper](http://i.imgur.com/mlnGzSa.gif)
+![Demo MMTableCellAnimation](http://i.imgur.com/mlnGzSa.gif)
 
 
 Contact Me
